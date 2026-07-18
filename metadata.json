@@ -1,0 +1,6 @@
+{
+  "name": "AI KhelSaathi",
+  "description": "An AI-powered sports coaching app that uses MediaPipe for form tracking and TTS for feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
