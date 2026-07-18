@@ -27,7 +27,7 @@ jobs:
 
     - name: Create mock google-services.json (Bypass Plugin Error)
       run: |
-        echo '{"project_info":{"project_number":"123456789","firebase_url":"https://mock.firebaseio.com","project_id":"mock-id","storage_bucket":"mock-bucket"},"client":[{"client_info":{"mobilesdk_app_id":"1:123456789:android:abcdef","android_client_info":{"package_name":"com.example.app"}},"oauth_client":[],"api_key":[{"current_key":"mock-key"}],"services":{"appinvite_service":{"other_platform_oauth_client":[]}}}]}' > app/google-services.json
+        echo '{"project_info":{"project_number":"123456789","firebase_url":"https://mock.firebaseio.com","project_id":"mock-id","storage_bucket":"mock-bucket"},"client":[{"client_info":{"mobilesdk_app_id":"1:123456789:android:abcdef","android_client_info":{"package_name":"com.aistudio.aikhelsaathi.vxkmz"}},"oauth_client":[],"api_key":[{"current_key":"mock-key"}],"services":{"appinvite_service":{"other_platform_oauth_client":[]}}}]}' > app/google-services.json
 
     - name: Build debug APK
       run: gradle assembleDebug
